@@ -5,18 +5,18 @@ import Breadcrumbs from "../../components/pageProps/Breadcrumbs";
 const Contact = () => {
   const location = useLocation();
   const [prevLocation, setPrevLocation] = useState("");
-  useEffect(() => {
-    setPrevLocation(location.state.data);
-  }, [location]);
-
   const [clientName, setclientName] = useState("");
   const [email, setEmail] = useState("");
   const [messages, setMessages] = useState("");
+  const [bookName, setBook] = useState("");
+  const [formValid, setFormValid] = useState(false);
+
 
   // ========== Error Messages Start here ============
   const [errClientName, setErrClientName] = useState("");
   const [errEmail, setErrEmail] = useState("");
   const [errMessages, setErrMessages] = useState("");
+  const [errBook, setErrBook] = useState("");
   // ========== Error Messages End here ==============
   const [successMsg, setSuccessMsg] = useState("");
 
@@ -32,6 +32,12 @@ const Contact = () => {
     setMessages(e.target.value);
     setErrMessages("");
   };
+  
+  const handleBook = (e) => {
+    setBook(e.target.value);
+    setErrBook("");
+  };
+
 
   // ================= Email Validation start here =============
   const EmailValidation = (email) => {
@@ -53,10 +59,13 @@ const Contact = () => {
         setErrEmail("Enter a Valid Email");
       }
     }
+    if(!bookName){
+      setErrBook("Enter the book name");
+    }
     if (!messages) {
       setErrMessages("Enter your Messages");
     }
-    if (clientName && email && EmailValidation(email) && messages) {
+    if (clientName && email && EmailValidation(email) && messages && bookName) {
       setSuccessMsg(
         `Thank you dear ${clientName}, Your messages has been received successfully. Futher details will sent to you by your email at ${email}.`
       );
@@ -71,7 +80,7 @@ const Contact = () => {
       ) : (
         <form className="pb-20">
           <h1 className="font-titleFont font-semibold text-3xl">
-            Fill up a Form
+            Contact us by dropping your reviews!!
           </h1>
           <div className="w-[500px] h-auto py-6 flex flex-col gap-6">
             <div>
@@ -110,6 +119,27 @@ const Contact = () => {
                 </p>
               )}
             </div>
+
+            <div>
+              <p className="text-base font-titleFont font-semibold px-2">
+                Book
+              </p>
+              <input
+                onChange={handleBook}
+                value={bookName}
+                className="w-full py-1 border-b-2 px-2 text-base font-medium placeholder:font-normal placeholder:text-sm outline-none focus-within:border-primeColor"
+                type="text"
+                placeholder="Enter your name here"
+              />
+              {errBook && (
+                <p className="text-red-500 text-sm font-titleFont font-semibold mt-1 px-2 flex items-center gap-1">
+                  <span className="text-sm italic font-bold">!</span>
+                  {errBook}
+                </p>
+              )}
+            </div>
+
+
             <div>
               <p className="text-base font-titleFont font-semibold px-2">
                 Messages

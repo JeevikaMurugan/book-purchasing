@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { FaFacebook, FaYoutube, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
 import FooterListTitle from "./FooterListTitle";
 import { paymentCard } from "../../../assets/images";
 import Image from "../../designLayouts/Image";
@@ -31,14 +31,13 @@ const Footer = () => {
     <div className="w-full bg-[#F5F5F3] py-20">
       <div className="max-w-container mx-auto grid grid-cols-1 md:grid-cols-2  xl:grid-cols-6 px-4 gap-10">
         <div className="col-span-2">
-          <FooterListTitle title=" More about Orebi Shop" />
+          <FooterListTitle title=" More about Fictionated Shop" />
           <div className="flex flex-col gap-6">
             <p className="text-base w-full xl:w-[80%]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sint
-              ab ullam, numquam nesciunt in.
+              A best fictional books selling platform..
             </p>
             <ul className="flex items-center gap-2">
-              <a
+              {/* <a
                 href="https://www.youtube.com/@reactjsBD"
                 target="_blank"
                 rel="noreferrer"
@@ -46,9 +45,9 @@ const Footer = () => {
                 <li className="w-7 h-7 bg-primeColor text-gray-100 hover:text-white cursor-pointer text-lg rounded-full flex justify-center items-center hover:bg-black duration-300">
                   <FaYoutube />
                 </li>
-              </a>
+              </a> */}
               <a
-                href="https://github.com/noorjsdivs"
+                href="https://github.com/nihasinips"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -57,7 +56,7 @@ const Footer = () => {
                 </li>
               </a>
               <a
-                href="https://www.facebook.com/Noorlalu143/"
+                href="https://www.facebook.com/Nihasini/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -66,7 +65,7 @@ const Footer = () => {
                 </li>
               </a>
               <a
-                href="https://www.linkedin.com/in/noor-mohammad-ab2245193/"
+                href="https://www.linkedin.com/in/nihasini-periaswamy/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -78,26 +77,26 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <FooterListTitle title="Shop" />
-          <ul className="flex flex-col gap-2">
+          <FooterListTitle title="" />
+          {/* <ul className="flex flex-col gap-2">
             <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              Accesories
+              Fiction
             </li>
             <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              Clothes
+              Science
             </li>
             <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              Electronics
+              Non-fiction
             </li>
             <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              Home appliances
+              Novels
             </li>
             <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              New Arrivals
+              Biographies & Auto-Biographies
             </li>
-          </ul>
+          </ul> */}
         </div>
-        <div>
+        {/* <div>
           <FooterListTitle title="Your account" />
           <ul className="flex flex-col gap-2">
             <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
@@ -116,12 +115,12 @@ const Footer = () => {
               Payment Options
             </li>
           </ul>
-        </div>
+        </div> */}
         <div className="col-span-2 flex flex-col items-center w-full px-4">
           <FooterListTitle title="Subscribe to our newsletter." />
           <div className="w-full">
             <p className="text-center mb-4">
-              A at pellentesque et mattis porta enim elementum.
+              {/* A at pellentesque et mattis porta enim elementum. */}
             </p>
             {subscription ? (
               <motion.p
@@ -161,7 +160,7 @@ const Footer = () => {
               className={`w-[80%] lg:w-[60%] mx-auto ${
                 subscription ? "mt-2" : "mt-6"
               }`}
-              imgSrc={paymentCard}
+              imgSrc="https://e7.pngegg.com/pngimages/421/982/png-clipart-payment-gateway-service-money-debit-card-italy-visa-text-service.png"
             />
           </div>
         </div>

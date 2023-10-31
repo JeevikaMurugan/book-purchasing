@@ -32,7 +32,7 @@ const Header = () => {
         <Flex className="flex items-center justify-between h-full">
           <Link to="/">
             <div>
-              <Image className="w-20 object-cover" imgSrc={logo} />
+              <Image className="w-20 object-cover" imgSrc="https://i.pinimg.com/originals/d4/d3/c0/d4d3c02f855019b7357b6c46da2124da.jpg" />
             </div>
           </Link>
           <div>
@@ -72,7 +72,7 @@ const Header = () => {
                   <div className="w-full h-full bg-primeColor p-6">
                     <img
                       className="w-28 mb-6"
-                      src={logoLight}
+                      src="https://png.pngtree.com/png-vector/20191028/ourmid/pngtree-book-icon-for-your-design-websites-and-projects-png-image_1884963.jpg"
                       alt="logoLight"
                     />
                     <ul className="text-gray-200 flex flex-col gap-2">

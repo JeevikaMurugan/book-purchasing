@@ -9,7 +9,7 @@
     @apply duration-300 cursor-pointer;
   }
   .headerSedenavLi {
-    @apply hover:underline underline-offset-2 cursor-pointer text-gray-300 hover:text-white;
+    @apply hover:underline underline-offset-2 cursor-pointer text-gray-300 hover:text-white; /* Changed "grey" to "gray" */
   }
 }
 
@@ -17,14 +17,14 @@
 nav .active li {
   color: black;
   font-weight: 600;
-  text-decoration: 1px underline black;
+  text-decoration: underline black; /* Removed the "1px" from text-decoration */
 }
 
 @media screen and (max-width: 665px) {
   nav .active li {
     color: white;
     font-weight: 600;
-    text-decoration: 1px underline white;
+    text-decoration: underline white; /* Removed the "1px" from text-decoration */
   }
 }
 

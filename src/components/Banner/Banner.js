@@ -104,17 +104,17 @@ const Banner = () => {
       <Slider {...settings}>
         <Link to="/offer">
           <div>
-            <Image imgSrc={bannerImgOne} />
+            <Image imgSrc="https://static.vecteezy.com/system/resources/previews/002/294/884/original/book-delivery-web-banner-design-online-bookstore-concept-online-education-online-store-online-shopping-header-or-footer-banner-free-vector.jpg" />
           </div>
         </Link>
         <Link to="/offer">
           <div>
-            <Image imgSrc={bannerImgTwo} />
+            <Image imgSrc="https://static.vecteezy.com/system/resources/previews/002/294/881/non_2x/digital-bookstore-for-education-web-banner-design-student-buy-book-on-online-bookstore-platform-online-education-digital-classroom-e-learning-concept-header-or-footer-banner-free-vector.jpg"/>
           </div>
         </Link>
         <Link to="/offer">
           <div>
-            <Image imgSrc={bannerImgThree} />
+            <Image imgSrc="https://static.vecteezy.com/system/resources/previews/002/294/869/non_2x/book-delivery-web-banner-design-online-bookstore-concept-online-education-online-store-online-shopping-header-or-footer-banner-free-vector.jpg"/>
           </div>
         </Link>
       </Slider>
