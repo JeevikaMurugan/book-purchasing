@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/books/static/css/main.da5dd6d1.css",
+    "main.js": "/books/static/js/main.4c56810f.js",
+    "static/media/bestSellerOne.jpg": "/books/static/media/bestSellerOne.810f437f15dc412702f4.jpg",
+    "static/media/newArrThree.jpg": "/books/static/media/newArrThree.80811e1d02116bf7ed6d.jpg",
+    "static/media/saleImgTwo.jpg": "/books/static/media/saleImgTwo.c7fc9320d2829f54f5aa.jpg",
+    "static/media/saleImgOne.jpeg": "/books/static/media/saleImgOne.3ebe772c03c6a5a75566.jpeg",
+    "static/media/spfOne.png": "/books/static/media/spfOne.841a343ff0181f21e119.png",
+    "static/media/bestSellerThree.jpg": "/books/static/media/bestSellerThree.eb3ed63f3bb2160d8fdc.jpg",
+    "static/media/bannerImgTwo.jpg": "/books/static/media/bannerImgTwo.c859b2da7adda72e7568.jpg",
+    "static/media/saleImgThree.jpg": "/books/static/media/saleImgThree.3d26597cdd72da424675.jpg",
+    "static/media/bannerImgOne.jpg": "/books/static/media/bannerImgOne.a0b2b47ae5c74c6d20bd.jpg",
+    "static/media/productOfTheYear.jpg": "/books/static/media/productOfTheYear.2518405439736877ef66.jpg",
+    "static/media/bannerImgThree.jpg": "/books/static/media/bannerImgThree.1bc4a36d53ebbb42cc74.jpg",
+    "static/media/spfThree.jpg": "/books/static/media/spfThree.0f6878ae50f51afaedb2.jpg",
+    "static/media/spfFour.jpg": "/books/static/media/spfFour.b88afbd44c46117cd473.jpg",
+    "static/media/newArrTwo.jpg": "/books/static/media/newArrTwo.2b82b26b2ff95ca24dff.jpg",
+    "static/media/bestSellerTwo.jpg": "/books/static/media/bestSellerTwo.938e4a5ec2ac54ca7f08.jpg",
+    "static/media/payment.png": "/books/static/media/payment.3e00cc601c9e7fc1e7d3.png",
+    "static/media/logoLight.jpg": "/books/static/media/logoLight.30be2324cd7a0836152c.jpg",
+    "static/media/orebiLogo.png": "/books/static/media/orebiLogo.30be2324cd7a0836152c.png",
+    "static/media/newArrFour.jpg": "/books/static/media/newArrFour.0518721f8793b0ce0c6c.jpg",
+    "static/media/spfTwo.jpg": "/books/static/media/spfTwo.722b9686b86942acc899.jpg",
+    "static/media/emptyCart.png": "/books/static/media/emptyCart.230e4848b62fb3cab325.png",
+    "static/media/bestSellerFour.jpg": "/books/static/media/bestSellerFour.cb96739c841352880fcd.jpg",
+    "static/media/newArrOne.jpg": "/books/static/media/newArrOne.2add2bb8f8484a8e4cc0.jpg",
+    "index.html": "/books/index.html",
+    "main.da5dd6d1.css.map": "/books/static/css/main.da5dd6d1.css.map",
+    "main.4c56810f.js.map": "/books/static/js/main.4c56810f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da5dd6d1.css",
+    "static/js/main.4c56810f.js"
+  ]
+}
