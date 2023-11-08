@@ -64,9 +64,9 @@ const Payment = () => {
           alert(response.razorpay_paymentid);
         },
         prefill: {
-          name: "Nihasini",
-          email: "nihasinips@gmail.com",
-          contact: "9443020636",
+          name: "Jeevika",
+          email: "jeevika@gmail.com",
+          contact: "9345790340",
         },
         notes: {
           address: "Fictionated Admin office",

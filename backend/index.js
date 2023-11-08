@@ -7,7 +7,7 @@ const jwt = require('jsonwebtoken'); // Add this line for JWT
 const app = express();
 const PORT = 3000;
 
-const dbUrl = "mongodb+srv://Nihasini:dud166pqZgKJV77c@cluster0.kzer7lm.mongodb.net/Book?retryWrites=true&w=majority";
+const dbUrl = "mongodb+srv://jeevika:faLineY5xyGdeJ0y@cluster0.fgl3tmc.mongodb.net/Book?retryWrites=true&w=majority";
 const connectionParams = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
